@@ -47,7 +47,7 @@ const Project = () => {
             <div class="col-lg-12">
                 {lists?.map((opt) => (
               <div class="work-gallery">
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="col-lg-3 col-md-3 col-sm-12">
                     <div className="work">
                       <img className="img-fluid" src={opt.img} alt />
                       <div className="desc">

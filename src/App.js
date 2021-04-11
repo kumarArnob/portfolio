@@ -57,7 +57,7 @@ useEffect(() => {
      <Project/>
      <HideContact/>
      {/* <Contact/> */}
-     <Footer city={name} temp = {temp} logo={logo}/>
+     <Footer/>
 
       
     </div>

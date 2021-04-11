@@ -27,7 +27,7 @@ const Overview = () => {
                 <div className="header-page-about">
                   <h2 className="intro-heading">About Me</h2>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis non porta. Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque.Maecenas auctor vitae felis non porta. </p>
+                <p>I love to code, design and program. Also, a tech enthusiast, with proficiency in languages like C++ , JavaScript , Python . Looking forward to work with other professionals to learn from them as well and improve my skills which can be useful for the growth of my professional career and also for the growth of the company itself .</p>
                 <div className="col-md-6 col-sm-4 no-padding">
                   <ul>
                     <li><span>Name : </span>Kumar Arnob Mandol</li>

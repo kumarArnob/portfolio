@@ -1,6 +1,14 @@
 import React from "react";
 
-const Footer = (props) => {
+
+const Footer = () => {
+
+  const goLkdn = ()=>{
+    window.open('https://www.linkedin.com/in/kumararnob');
+  }
+  const goGit = ()=>{
+    window.open('https://github.com/kumarArnob');
+  }
   return (
     <div>
       <footer>
@@ -10,10 +18,10 @@ const Footer = (props) => {
               <div className="col-md-12 text-center">
                 {/* Footer logo */}
                 <p className="social-icon">
-                  <a href="#">
+                  <a onClick={goLkdn}>
                     <i className="fab fa-linkedin-in" />
                   </a>
-                  <a href="#">
+                  <a onClick={goGit}>
                     <i className="fab fa-github" />
                   </a>
                 </p>
@@ -39,11 +47,7 @@ const Footer = (props) => {
                   </a>
                 </p>
               </div>
-              <div className="col-sm-2 text-center">
-                <div><h2><small> {props.city}</small> </h2>  </div>
               
-              </div>
-              <div> <small>{props.temp}{" "}&deg;C</small></div>
             </div>
           </div>
         </div>

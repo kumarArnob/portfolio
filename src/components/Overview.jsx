@@ -7,12 +7,7 @@ import jsPDF from 'jspdf';
 
 const Overview = () => {
 
-  const GoDownload = ()=>{
-    var doc = new jsPDF('landscape','px','a4','false')
-    doc.save();
-
-    //%PUBLIC_URL%/logo192.png
-  }
+ 
 
 
 
@@ -43,15 +38,7 @@ const Overview = () => {
                 <hr />
                 <div className="col-md-12 no-padding mt-20">
                   <a className="btn btn " href="./CV.pdf" download="Kumar_Arnob_Mandol">Download CV</a>
-                  {/* <DownloadLink
-                  className="btn btn"
-                  label="Promise to Save"
-                 filename="cv.pdf"
-                 url
-                  exportFile={() => Promise.resolve("My cached data")}
-/> */}
-                  {/* <Link to="/cv.pdf" className="btn btn" target="_blank" download>Download CV</Link> */}
-                   
+                 
                 </div>
               </div>
               <div className="col-md-4">

@@ -3,11 +3,12 @@ import './App.css';
 
 import About from './components/About';
 import Overview from './components/Overview';
-import Project from './components/Project';
+
 import Footer from './components/Footer';
 
 import HideContact from './components/HideContact';
 import {useState , useEffect} from 'react';
+import ProjectWork from './ProjectWork';
 
 function App() {
 const [name , setName]=useState();
@@ -51,12 +52,12 @@ useEffect(() => {
 
   return (
     <div className="App">
-     {/* <Main/> */}
+     
      <About/>
      <Overview/>
-     <Project/>
+    
+     <ProjectWork/>
      <HideContact/>
-     {/* <Contact/> */}
      <Footer/>
 
       
